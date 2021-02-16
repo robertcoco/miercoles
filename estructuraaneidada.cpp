@@ -18,6 +18,7 @@ struct usuario{
 
 int main(){
 	
+	cout<<"imprimiendo codigo xd";
 	for(int i=0;i<2;i++){
 		fflush(stdin);
 		cout<<"nombre: ";
