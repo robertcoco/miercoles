@@ -32,7 +32,7 @@ int main(){
 		cin.getline(usuarios[i].f_usuario.correo,20,'\n');
 		cout<<"contra: ";
 		cin.getline(usuarios[i].contra,20,'\n');
-		
+		cout<<endl;
 		
 	}
 	cout<<endl;
@@ -42,7 +42,7 @@ int main(){
 		cout<<"numero: "<<usuarios[i].f_usuario.numero<<endl;
 		cout<<"direccion: "<<usuarios[i].f_usuario.direccion<<endl;
 		cout<<"correo: "<<usuarios[i].f_usuario.correo<<endl;
-		cout<<"contra: "<<usuarios[i].contra;
+		cout<<"contra: "<<usuarios[i].contra<<endl;
 		cout<<endl;
 	}
 	getch();
